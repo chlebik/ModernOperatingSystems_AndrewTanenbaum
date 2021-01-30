@@ -30,7 +30,7 @@ lie that increasing number of GitHub stars does not improve my morale ;) What is
 
 ### Chapter 5 - <a href="Chapter_05/README.md">Input/Output</a>
 
-### Chapter 6 - Deadlocks
+### Chapter 6 - <a href="Chapter_06/README.md">Deadlocks</a>
 
 ### Chapter 7 - Virtualization and the cloud
 
