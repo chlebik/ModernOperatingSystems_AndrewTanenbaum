@@ -3,7 +3,7 @@
 <img class=" wp-image-79 alignleft" src="https://www.baremetaldev.com/wp-content/uploads/2021/01/013359162X-235x300.jpeg"
  alt="" width="163" height="208" style="text-align: center;" />
  <br /><br />
- One of my first tasks on the road to become <em>BareMetalDev</em> was reading
+ One of my first tasks on the road to become <a href="https://baremetaldev.com">BareMetalDev</a> was reading
   the praised book by <strong>Andrew Tanenbaum</strong> and <strong>Herbert Bos</strong> - <em>"Modern Operating Systems"</em>
   . It is a great source of knowledge about operating systems - how they work and operate.
 
