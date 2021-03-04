@@ -34,7 +34,7 @@ lie that increasing number of GitHub stars does not improve my morale ;) What is
 
 ### Chapter 7 - <a href="Chapter_07/README.md">Virtualization and the cloud</a>
 
-### Chapter 8 - Multiple processors systems
+### Chapter 8 - <a href="Chapter_08/README.md">Multiple processors systems</a>
 
 ### Chapter 9 - Security
 
