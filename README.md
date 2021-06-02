@@ -36,7 +36,7 @@ lie that increasing number of GitHub stars does not improve my morale ;) What is
 
 ### Chapter 8 - <a href="Chapter_08/README.md">Multiple processors systems</a>
 
-### Chapter 9 - Security
+### Chapter 9 - <a href="Chapter_09/README.md">Security</a>
 
 ### Chapter 10 - UNIX, Linux and Android
 
