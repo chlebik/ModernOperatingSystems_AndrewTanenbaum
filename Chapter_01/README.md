@@ -9,7 +9,7 @@
 Processes are not single beings - on modern operating systems there are hundreds or thousands of processes that are run at once (or at least user sees it that way). However it's obvious that there must be some kind of global list of all processes in the system. This list is called **process table**. 
 
 Processes can create new processes which are (thank you, Captain Obvious) called **child processes**. Also - every 
-process holds information about the user that started it. First initialisation process is run by **superuser** (UNIX) or **administratora** (Windows).
+process holds information about the user that started it. First initialisation process is run by **superuser** (UNIX) or **administrator** (Windows).
 
 
 #### Address space
