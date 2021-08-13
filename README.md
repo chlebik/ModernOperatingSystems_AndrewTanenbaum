@@ -40,6 +40,6 @@ lie that increasing number of GitHub stars does not improve my morale ;) What is
 
 ### Chapter 10 - <a href="Chapter_10/README.md">UNIX, Linux and Android</a>
 
-### Chapter 11 - Windows 8
+### Chapter 11 - <a href="Chapter_11/README.md">Windows 8</a>
 
 ### Chapter 12 - OS Design (not planning on making notes here)
