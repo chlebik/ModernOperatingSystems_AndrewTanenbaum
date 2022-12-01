@@ -235,7 +235,7 @@ The algorithm runs in a such fashion:
   deadlocked. When the algorithm terminates, any unmarked processes are known
   to be deadlocked. This algorithm assumes a worst-case scenario: all processes
   keep all acquired resources until they exit.
-  The deadlock detection algorithm can now be giv en as follows.
+  The deadlock detection algorithm can now be given as follows.
   
 > 1. Look for an unmarked process, **Pi**, for which the **ith** row of **R** is less
   than or equal to **A**.
