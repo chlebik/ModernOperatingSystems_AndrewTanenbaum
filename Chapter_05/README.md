@@ -266,7 +266,7 @@ Although, we have a humongous number of different devices in use, still there's 
 can be performed on them (or while using them). These operations can be handled by the **drivers** obviously, but it 
 is wiser to actually extract them into the separate layer and make it generic (and with it - more mature and better 
 tested as it is used heavily by myriads of drivers). This layer is called **Device-Independent I/O Software**. The 
-list of the operations that can be handled by this layer are listed below.
+operations that can be handled by this layer are listed below.
 
 * **Uniform interacting for device drivers** - this is the concept I've mentioned before. There's unified interface 
   that 
