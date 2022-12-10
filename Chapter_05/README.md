@@ -194,7 +194,7 @@ I/O**, which authors describe via example depicted below.
 The main aspect of it is the fact, that *I/O* to be performed is copied to the kernel space, and then it's the 
 kernel job to make sure that every single bit of data to be operated on is processed properly. In an example 
 provided that results in kernel asking the printer if it's ready after every single character is sent to it. This is 
-called **budy waiting** or **polling**. Below snippet shows how it's done in the code.
+called **busy waiting** or **polling**. Below snippet shows how it's done in the code.
 
 ```c
 copy_from_user(buffer, p, count);              /* p is the kernel buffer */
