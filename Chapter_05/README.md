@@ -253,7 +253,7 @@ structured is shown below.
 ![Software drivers](./images/Tanenbaum-R5-8-drivers.png)
 
 
-Remember **block devices** and **character devices** typology that was introduced at the beginning if this chapter? 
+Remember **block devices** and **character devices** typology that was introduced at the beginning of this chapter? 
 Usually the drivers fall into one of them, which results in all the drivers comply with some kind of contract (or 
 predefined interface) expected from the drivers. With such approach, an OS can use a wide variety of drivers. Back 
 in a day the kernels actually incorporated all the **drivers' code** in them, although, with a raise of PCs it was 
