@@ -194,7 +194,7 @@ I/O**, which authors describe via example depicted below.
 The main aspect of it is the fact, that *I/O* to be performed is copied to the kernel space, and then it's the 
 kernel job to make sure that every single bit of data to be operated on is processed properly. In an example 
 provided that results in kernel asking the printer if it's ready after every single character is sent to it. This is 
-called **busy waiting** or **polling**. Below snippet shows how it's done in the code.
+called **budy waiting** or **polling**. Below snippet shows how it's done in the code.
 
 ```c
 copy_from_user(buffer, p, count);              /* p is the kernel buffer */
@@ -253,7 +253,7 @@ structured is shown below.
 ![Software drivers](./images/Tanenbaum-R5-8-drivers.png)
 
 
-Remember **block devices** and **character devices** typology that was introduced at the beginning of this chapter? 
+Remember **block devices** and **character devices** typology that was introduced at the beginning if this chapter? 
 Usually the drivers fall into one of them, which results in all the drivers comply with some kind of contract (or 
 predefined interface) expected from the drivers. With such approach, an OS can use a wide variety of drivers. Back 
 in a day the kernels actually incorporated all the **drivers' code** in them, although, with a raise of PCs it was 
@@ -266,7 +266,7 @@ Although, we have a humongous number of different devices in use, still there's 
 can be performed on them (or while using them). These operations can be handled by the **drivers** obviously, but it 
 is wiser to actually extract them into the separate layer and make it generic (and with it - more mature and better 
 tested as it is used heavily by myriads of drivers). This layer is called **Device-Independent I/O Software**. The 
-operations that can be handled by this layer are listed below.
+list of the operations that can be handled by this layer are listed below.
 
 * **Uniform interacting for device drivers** - this is the concept I've mentioned before. There's unified interface 
   that 
@@ -466,7 +466,7 @@ of two ways that are depicted below.
 When we have our **bad sector** with number *7*, a *controller* can just replace its address with a spare one. This 
 is presented in the middle. Although, there's efficiency problem, as the **track** cannot be read as a stream now. 
 To avoid that, there's another solution presented on the right - all the **sectors** are moved 'up' (rewriting 
-metadata in the **preambles** is needed), resulting in the possibility to read he whole **track** in one go. These 
+metadata in the **preambles** is needed), resulting in the possibility to read the whole **track** in one go. These 
 solutions work fine when we're making checks to the disk before it's being used. However, **bad sectors** appear 
 also when the disk is being used and contains some data. In such a case, usually the first option is used, as moving 
 the data will take too much time.
