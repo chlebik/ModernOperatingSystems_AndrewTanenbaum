@@ -593,7 +593,7 @@ to handle the data is left completly to the driver.
 window**. Back in a day, when mainframes were ruling the world, simple **terminals** were just presenting 25x80 
 characters and that was all. The whole control logic was handled by **escape characters**, that were different for 
 every type of terminal there were. *Berkeley UNIX* introduced something called **termcap**, that mapped some generic 
-**escape characters** to the specific terminal that was in used. However, that wasn't the perfect solution, so *ANSI 
+**escape characters** to the specific terminal that was in use. However, that wasn't the perfect solution, so *ANSI 
 standard* for these characters was introduced. 
 
 That is although a distant history. Since the *80s* a **X Window System** is used in the *UNIX-family*. It contains 
