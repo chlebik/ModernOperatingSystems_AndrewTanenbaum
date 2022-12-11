@@ -466,7 +466,7 @@ of two ways that are depicted below.
 When we have our **bad sector** with number *7*, a *controller* can just replace its address with a spare one. This 
 is presented in the middle. Although, there's efficiency problem, as the **track** cannot be read as a stream now. 
 To avoid that, there's another solution presented on the right - all the **sectors** are moved 'up' (rewriting 
-metadata in the **preambles** is needed), resulting in the possibility to read he whole **track** in one go. These 
+metadata in the **preambles** is needed), resulting in the possibility to read the whole **track** in one go. These 
 solutions work fine when we're making checks to the disk before it's being used. However, **bad sectors** appear 
 also when the disk is being used and contains some data. In such a case, usually the first option is used, as moving 
 the data will take too much time.
@@ -593,7 +593,7 @@ to handle the data is left completly to the driver.
 window**. Back in a day, when mainframes were ruling the world, simple **terminals** were just presenting 25x80 
 characters and that was all. The whole control logic was handled by **escape characters**, that were different for 
 every type of terminal there were. *Berkeley UNIX* introduced something called **termcap**, that mapped some generic 
-**escape characters** to the specific terminal that was in used. However, that wasn't the perfect solution, so *ANSI 
+**escape characters** to the specific terminal that was in use. However, that wasn't the perfect solution, so *ANSI 
 standard* for these characters was introduced. 
 
 That is although a distant history. Since the *80s* a **X Window System** is used in the *UNIX-family*. It contains 
