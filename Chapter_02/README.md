@@ -121,7 +121,7 @@ However, when there are kernel-threads - how does the OS know which thread shoul
 
 There were concepts to combine two types of threading. However, author does not elaborate much on that - the 
 description says that there are **kernel threads** but **user-space** application can create **user threads** on top of
-one **kernel thread**. Howeve,r that is all in this subchapter. I've found <a href="https://stackoverflow.
+one **kernel thread**. However, that is all in this subchapter. I've found <a href="https://stackoverflow.
 com/questions/4249124/hybrid-thread-model-mn-implementation">quick and simple SO question</a> about it that I think sums
 it up as - *we do not do this anymore.*
 
