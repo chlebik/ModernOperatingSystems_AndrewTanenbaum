@@ -417,7 +417,7 @@ With already described way to avoid **race conditions** there comes another idea
 **Pthreads** also offers a different type of sync mechanism that uses **mutexes** but also enables processing based on
 additional **conditional variable**. As we've discussed - **mutex** is a simple concept based on enable/disable
  functionality. However sometimes that is not enough, and we want two threads two synchronize on something more. As an
-  example let's take a thread that sends some data over the next. Every time getting a connection established
+  example let's take a thread that sends some data over the network. Every time getting a connection established
    and communication process takes time. Therefore, it will be wise to actually gather a couple of records/entities that
    should be send and make them one-payload instead of calling external system/service a couple of time separately
    . That's the place where **condition variables** are pretty nice solution. Below you can find sample implementation.
